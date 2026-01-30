@@ -63,11 +63,16 @@ Navigate to individual practical folders for detailed instructions.
 
 ## 🤝 Contributing
 
-This is a personal practical repository. Feel free to fork and use for your own learning.
+This is a personal practical repository. Contributions are welcome! Please read [CONTRIBUTING.md](CONTRIBUTING.md) for details on how to contribute.
 
 ## 📄 License
 
-This repository is for educational purposes.
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## 📚 Additional Documentation
+
+- [Getting Started Guide](GETTING_STARTED.md) - Step-by-step setup instructions
+- [Contributing Guidelines](CONTRIBUTING.md) - How to contribute to this repository
 
 ## 👤 Author
 

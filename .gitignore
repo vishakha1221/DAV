@@ -3,6 +3,12 @@ __pycache__/
 *.py[codz]
 *$py.class
 
+# Generated output files from practicals
+practicals/**/[!README]*.png
+practicals/**/[!README]*.jpg
+practicals/**/[!README]*.pdf
+practicals/**/*.html
+
 # C extensions
 *.so
 
