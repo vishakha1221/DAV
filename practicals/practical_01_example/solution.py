@@ -34,7 +34,15 @@ def explore_data(df):
     print(df.describe())
 
 def analyze_data(df):
-    """Perform data analysis tasks"""
+    """
+    Perform data analysis tasks
+    
+    Note: This function adds new columns to the DataFrame:
+    - overall_avg: Average of math, science, and english grades
+    - grade_category: Letter grade based on overall_avg
+    
+    Returns the modified DataFrame.
+    """
     print("\n=== Data Analysis ===")
     
     # Task 1: Average grade for each subject

@@ -70,8 +70,8 @@ df.dropna(subset=['col1'])     # Drop rows with NaN in col1
 # Fill missing values
 df.fillna(0)                   # Fill with 0
 df.fillna(df.mean())           # Fill with mean
-df.fillna(method='ffill')      # Forward fill
-df.fillna(method='bfill')      # Backward fill
+df.ffill()                     # Forward fill
+df.bfill()                     # Backward fill
 
 # Drop duplicates
 df.drop_duplicates()
@@ -219,7 +219,7 @@ df['rolling_avg'] = df['value'].rolling(window=7).mean()
 ## Performance Tips
 - Use `df.loc` and `df.iloc` instead of chaining `[]`
 - Use vectorized operations instead of loops
-- Use `inplace=True` parameter to modify DataFrame without copying
+- Prefer assignment over deprecated `inplace=True` parameter (e.g., `df = df.sort_values()`)
 - Use appropriate data types (e.g., 'category' for categorical data)
 
 ## More Resources

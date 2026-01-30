@@ -221,10 +221,10 @@ plt.show()
 ## Style Sheets
 ```python
 # Available styles
-plt.style.available
+print(plt.style.available)
 
-# Use a style
-plt.style.use('seaborn-v0_8')
+# Use a style (check available styles first)
+plt.style.use('seaborn-v0_8')  # For matplotlib 3.6+
 plt.style.use('ggplot')
 plt.style.use('dark_background')
 ```
